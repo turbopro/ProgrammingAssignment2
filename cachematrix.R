@@ -5,17 +5,15 @@
 ### This code based on the 'makeVector' and 'cachemean' functions
 ### Branched from: https://github.com/rdpeng/ProgrammingAssignment2
 
-## The 'makeCacheMatrix' and 'cacheSolve' functions are used
-## to:
-## 1) create a special object that stores a matrix (invertible) to
-##    allow for caching of the computed inverse of the matrix, and
-## 2) cache the computed inverse of the matrix
+## The 'makeCacheMatrix' and 'cacheSolve' functions are used to
+## create a special object that allows for the computing and caching
+## of the inverse of an invertible matrix
 ##
 ## Given that computing the inverse of a significantly large matrix 
 ## may be computationally expensive, the above two functions allow 
-## for the caching of the solution for future use. If the matrix 
-## does not change, then the solved inverted matrix may be 
-## retrieved from the cache
+## for the caching of the solution for future use. If the matrix is 
+## invertible and generally static, then the solved inverted matrix
+## may be retrieved from the cache
 
 ## NB: we assume the matrix is always invertible
 
