@@ -1,3 +1,7 @@
+Archived: Jan 28 2018
+By Xon-Xoff
+
+
 ### Introduction
 
 This second programming assignment will require you to write an R
